@@ -1,0 +1,112 @@
+
+.linea h5{
+    background-color: #D6D5D2;
+    color: #8C8B8B;
+    position: static;
+
+    height: 70px;
+    font-size: 40px;
+    padding-top: 15px;
+    padding-left: 150px;
+    margin: 0px;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: static;
+}
+
+.container .card{
+    width: 200px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: all 0.25s;
+    
+}
+
+.container .card h4{
+    font-weight: 600;
+    background-color: #00ab84;
+    position:  relative;
+    height: 50px;
+    margin: 0;
+    color: white;
+    font-size: 15;
+    padding-top: 15px;
+}
+
+.container .card p{
+    padding: 0 1rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.container .card a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
+/*--------------------------------------------------*/
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.container .card2{
+    width: 770px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 50px;
+    text-align: center;
+    transition: all 0.25s;
+    
+}
+
+.container .card2 h4{
+    font-weight: 600;
+    background-color: #00ab84;
+    position:  relative;
+    height: 50px;
+    margin: 0;
+    color: white;
+    font-size: 15;
+    padding-top: 15px;
+}
+.container .card2 h6{
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 15px;
+    padding: 0 1rem;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.container .card2 p{
+    padding: 0 1rem;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.container .card2 a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #3498db;
+}
