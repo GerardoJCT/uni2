@@ -14,6 +14,7 @@ import { AsistenciaComponent } from './asistencia/asistencia.component';
 import { ProfesoresComponent } from './profesores/profesores.component';
 import { AlumnosComponent } from './alumnos/alumnos.component';
 import { DirectoComponent } from './directo/directo.component';
+import { TablaDeAsistenciaComponent } from './tabla-de-asistencia/tabla-de-asistencia.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { DirectoComponent } from './directo/directo.component';
     AsistenciaComponent,
     ProfesoresComponent,
     AlumnosComponent,
-    DirectoComponent
+    DirectoComponent,
+    TablaDeAsistenciaComponent
   ],
   imports: [
     BrowserModule,

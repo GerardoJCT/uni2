@@ -11,6 +11,7 @@ import { CursosComponent } from './cursos/cursos.component';
 import { ProfesoresComponent } from './profesores/profesores.component';
 import { AlumnosComponent } from './alumnos/alumnos.component';
 import { DirectoComponent } from './directo/directo.component';
+import { TablaDeAsistenciaComponent } from './tabla-de-asistencia/tabla-de-asistencia.component';
 
 
 const routes: Routes = [
@@ -26,6 +27,7 @@ const routes: Routes = [
   {path: 'profesores', component: ProfesoresComponent},
   {path: 'alumnos', component: AlumnosComponent},
   {path: 'directo', component: DirectoComponent},
+  {path: 'tabla_de_asistencia', component: TablaDeAsistenciaComponent},
 
 ];
 
